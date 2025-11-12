@@ -265,12 +265,11 @@ export default function PillowForm() {
 
   return (
     <>
-      <div className="mb-6 p-6 bg-white  text-[#8C004A]">
+      <div className="mb-6 p-6 bg-[#8C004A]  text-white">
         <h1 className="text-3xl font-bold text-[#8C004A] mb-2 text-center"></h1>
         <p className="text-lg leading-relaxed text-center">
-          This is our custom pillow case request form. We’re so glad you’re
-          here. Just follow the steps below to tell us about your fabric, pillow
-          preferences, and how you'd like to send it in.
+          We’re so glad you’re
+          here. This is our custom pillow case request form.  Follow the steps below.
         </p>
       </div>
 
@@ -679,7 +678,7 @@ export default function PillowForm() {
                 className="w-full border border-gray-300 rounded-md px-4 py-2 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-400 transition"
               >
                 <option value="">Select an option</option>
-                <option value="Mail">Mail to Townsend & Cherry</option>
+                <option value="Mail">Mail to us </option>
                 <option value="DropOff">Have us pick it up</option>
               </select>
 
@@ -692,14 +691,14 @@ export default function PillowForm() {
                     </span>
                   </p>
                   <p className="text-sm text-gray-800 mt-1">
-                    Townsend & Cherry
+                  
                     <br />
-                    1234 Pine Street
+       
                     <br />
-                    Seattle, WA 98101
+       
                   </p>
                   <p className="text-xs text-gray-600 mt-2">
-                    Please include your name and Request ID in the package.
+                   
                   </p>
                 </div>
               )}
